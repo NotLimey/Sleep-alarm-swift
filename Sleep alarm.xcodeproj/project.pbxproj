@@ -14,6 +14,8 @@
 		AD05FFC82962F8B30078FD48 /* Sleep_alarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05FFC72962F8B30078FD48 /* Sleep_alarmTests.swift */; };
 		AD05FFD22962F8B30078FD48 /* Sleep_alarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05FFD12962F8B30078FD48 /* Sleep_alarmUITests.swift */; };
 		AD05FFD42962F8B30078FD48 /* Sleep_alarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05FFD32962F8B30078FD48 /* Sleep_alarmUITestsLaunchTests.swift */; };
+		AD05FFE2296301B60078FD48 /* checkDateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05FFE1296301B60078FD48 /* checkDateString.swift */; };
+		AD05FFE52963076E0078FD48 /* android_alarm_remix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD05FFE42963076E0078FD48 /* android_alarm_remix.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		AD05FFB22962F8B20078FD48 /* Sleep alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD05FFB52962F8B20078FD48 /* Sleep_alarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_alarmApp.swift; sourceTree = "<group>"; };
-		AD05FFB72962F8B20078FD48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD05FFB72962F8B20078FD48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		AD05FFB92962F8B30078FD48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD05FFBC2962F8B30078FD48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD05FFBE2962F8B30078FD48 /* Sleep_alarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sleep_alarm.entitlements; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		AD05FFCD2962F8B30078FD48 /* Sleep alarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sleep alarmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD05FFD12962F8B30078FD48 /* Sleep_alarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_alarmUITests.swift; sourceTree = "<group>"; };
 		AD05FFD32962F8B30078FD48 /* Sleep_alarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_alarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD05FFE1296301B60078FD48 /* checkDateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkDateString.swift; sourceTree = "<group>"; };
+		AD05FFE42963076E0078FD48 /* android_alarm_remix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = android_alarm_remix.mp3; path = ../../../../Downloads/android_alarm_remix.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		AD05FFB42962F8B20078FD48 /* Sleep alarm */ = {
 			isa = PBXGroup;
 			children = (
+				AD05FFE42963076E0078FD48 /* android_alarm_remix.mp3 */,
+				AD05FFE0296301910078FD48 /* helpers */,
 				AD05FFB52962F8B20078FD48 /* Sleep_alarmApp.swift */,
 				AD05FFB72962F8B20078FD48 /* ContentView.swift */,
 				AD05FFB92962F8B30078FD48 /* Assets.xcassets */,
@@ -127,6 +133,14 @@
 				AD05FFD32962F8B30078FD48 /* Sleep_alarmUITestsLaunchTests.swift */,
 			);
 			path = "Sleep alarmUITests";
+			sourceTree = "<group>";
+		};
+		AD05FFE0296301910078FD48 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD05FFE1296301B60078FD48 /* checkDateString.swift */,
+			);
+			path = helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD05FFBD2962F8B30078FD48 /* Preview Assets.xcassets in Resources */,
+				AD05FFE52963076E0078FD48 /* android_alarm_remix.mp3 in Resources */,
 				AD05FFBA2962F8B30078FD48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD05FFE2296301B60078FD48 /* checkDateString.swift in Sources */,
 				AD05FFB82962F8B20078FD48 /* ContentView.swift in Sources */,
 				AD05FFB62962F8B20078FD48 /* Sleep_alarmApp.swift in Sources */,
 			);
