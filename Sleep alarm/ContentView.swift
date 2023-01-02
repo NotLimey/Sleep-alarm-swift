@@ -26,6 +26,7 @@ struct ContentView: View {
 
     // Declare a property to store the entered date string
     @State private var enteredDateString = ""
+    @State private var isActive = false;
 
     var body: some View {
         VStack {
@@ -34,8 +35,8 @@ struct ContentView: View {
             if timer == nil {
                 ZStack {
                     Rectangle()
-                        .frame(width: 160, height:50)
-                        .foregroundColor(Color.blue)
+                        .frame(width: 160, height:40)
+                        .foregroundColor(Color.green)
                         .cornerRadius(10)
                     Text("Set new alarm")
                         .font(.headline)
@@ -50,10 +51,10 @@ struct ContentView: View {
                     .labelsHidden()
                     .frame(width: 160)
             }
-            if timer != nil {
+            if isActive == true {
                 ZStack {
                     Rectangle()
-                        .frame(width: 160, height:50)
+                        .frame(width: 160, height:40)
                         .foregroundColor(Color.red)
                         .cornerRadius(10)
                     Text("Stop alarm")
@@ -98,6 +99,7 @@ struct ContentView: View {
         // Schedule the sound to play at the selected time
         timer = Timer.scheduledTimer(withTimeInterval: interval, repeats: false) { _ in
             self.player?.play()
+            isActive = true;
         }
     }
     
@@ -115,6 +117,8 @@ struct ContentView: View {
         if(correctPwd == enteredDateString) {
             timer = nil;
             player?.stop();
+            enteredDateString = ""
+            isActive = false;
             
         }else {
             showAlert = true;
@@ -122,15 +126,12 @@ struct ContentView: View {
     }
     func generate() {
         // Generate two random integers between 1 and 10
-        let num1 = Int.random(in: 5...20)
-        let num2 = Int.random(in: 5...15)
+        let num1 = Int.random(in: 10...150)
+        let num2 = Int.random(in: 10...100)
 
         // Calculate the result of the operation
-        var result = Double(num1) * Double(num2);
-
-        // Construct the riddle
+        riddleResult = Double(num1) * Double(num2);
         riddle = "What is \(num1) * \(num2)?"
-        riddleResult = result;
       }
 }
 
