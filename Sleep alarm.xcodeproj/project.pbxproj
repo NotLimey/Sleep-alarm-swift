@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD05FFB62962F8B20078FD48 /* Sleep_alarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05FFB52962F8B20078FD48 /* Sleep_alarmApp.swift */; };
+		AD05FFB82962F8B20078FD48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05FFB72962F8B20078FD48 /* ContentView.swift */; };
+		AD05FFBA2962F8B30078FD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD05FFB92962F8B30078FD48 /* Assets.xcassets */; };
+		AD05FFBD2962F8B30078FD48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD05FFBC2962F8B30078FD48 /* Preview Assets.xcassets */; };
+		AD05FFC82962F8B30078FD48 /* Sleep_alarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05FFC72962F8B30078FD48 /* Sleep_alarmTests.swift */; };
+		AD05FFD22962F8B30078FD48 /* Sleep_alarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05FFD12962F8B30078FD48 /* Sleep_alarmUITests.swift */; };
+		AD05FFD42962F8B30078FD48 /* Sleep_alarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05FFD32962F8B30078FD48 /* Sleep_alarmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD05FFC42962F8B30078FD48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD05FFAA2962F8B20078FD48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD05FFB12962F8B20078FD48;
+			remoteInfo = "Sleep alarm";
+		};
+		AD05FFCE2962F8B30078FD48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD05FFAA2962F8B20078FD48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD05FFB12962F8B20078FD48;
+			remoteInfo = "Sleep alarm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD05FFB22962F8B20078FD48 /* Sleep alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD05FFB52962F8B20078FD48 /* Sleep_alarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_alarmApp.swift; sourceTree = "<group>"; };
+		AD05FFB72962F8B20078FD48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD05FFB92962F8B30078FD48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD05FFBC2962F8B30078FD48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD05FFBE2962F8B30078FD48 /* Sleep_alarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sleep_alarm.entitlements; sourceTree = "<group>"; };
+		AD05FFC32962F8B30078FD48 /* Sleep alarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sleep alarmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD05FFC72962F8B30078FD48 /* Sleep_alarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_alarmTests.swift; sourceTree = "<group>"; };
+		AD05FFCD2962F8B30078FD48 /* Sleep alarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sleep alarmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD05FFD12962F8B30078FD48 /* Sleep_alarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_alarmUITests.swift; sourceTree = "<group>"; };
+		AD05FFD32962F8B30078FD48 /* Sleep_alarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_alarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD05FFAF2962F8B20078FD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05FFC02962F8B30078FD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05FFCA2962F8B30078FD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD05FFA92962F8B20078FD48 = {
+			isa = PBXGroup;
+			children = (
+				AD05FFB42962F8B20078FD48 /* Sleep alarm */,
+				AD05FFC62962F8B30078FD48 /* Sleep alarmTests */,
+				AD05FFD02962F8B30078FD48 /* Sleep alarmUITests */,
+				AD05FFB32962F8B20078FD48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD05FFB32962F8B20078FD48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD05FFB22962F8B20078FD48 /* Sleep alarm.app */,
+				AD05FFC32962F8B30078FD48 /* Sleep alarmTests.xctest */,
+				AD05FFCD2962F8B30078FD48 /* Sleep alarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD05FFB42962F8B20078FD48 /* Sleep alarm */ = {
+			isa = PBXGroup;
+			children = (
+				AD05FFB52962F8B20078FD48 /* Sleep_alarmApp.swift */,
+				AD05FFB72962F8B20078FD48 /* ContentView.swift */,
+				AD05FFB92962F8B30078FD48 /* Assets.xcassets */,
+				AD05FFBE2962F8B30078FD48 /* Sleep_alarm.entitlements */,
+				AD05FFBB2962F8B30078FD48 /* Preview Content */,
+			);
+			path = "Sleep alarm";
+			sourceTree = "<group>";
+		};
+		AD05FFBB2962F8B30078FD48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD05FFBC2962F8B30078FD48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD05FFC62962F8B30078FD48 /* Sleep alarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD05FFC72962F8B30078FD48 /* Sleep_alarmTests.swift */,
+			);
+			path = "Sleep alarmTests";
+			sourceTree = "<group>";
+		};
+		AD05FFD02962F8B30078FD48 /* Sleep alarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD05FFD12962F8B30078FD48 /* Sleep_alarmUITests.swift */,
+				AD05FFD32962F8B30078FD48 /* Sleep_alarmUITestsLaunchTests.swift */,
+			);
+			path = "Sleep alarmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD05FFB12962F8B20078FD48 /* Sleep alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD05FFD72962F8B30078FD48 /* Build configuration list for PBXNativeTarget "Sleep alarm" */;
+			buildPhases = (
+				AD05FFAE2962F8B20078FD48 /* Sources */,
+				AD05FFAF2962F8B20078FD48 /* Frameworks */,
+				AD05FFB02962F8B20078FD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sleep alarm";
+			productName = "Sleep alarm";
+			productReference = AD05FFB22962F8B20078FD48 /* Sleep alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD05FFC22962F8B30078FD48 /* Sleep alarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD05FFDA2962F8B30078FD48 /* Build configuration list for PBXNativeTarget "Sleep alarmTests" */;
+			buildPhases = (
+				AD05FFBF2962F8B30078FD48 /* Sources */,
+				AD05FFC02962F8B30078FD48 /* Frameworks */,
+				AD05FFC12962F8B30078FD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD05FFC52962F8B30078FD48 /* PBXTargetDependency */,
+			);
+			name = "Sleep alarmTests";
+			productName = "Sleep alarmTests";
+			productReference = AD05FFC32962F8B30078FD48 /* Sleep alarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD05FFCC2962F8B30078FD48 /* Sleep alarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD05FFDD2962F8B30078FD48 /* Build configuration list for PBXNativeTarget "Sleep alarmUITests" */;
+			buildPhases = (
+				AD05FFC92962F8B30078FD48 /* Sources */,
+				AD05FFCA2962F8B30078FD48 /* Frameworks */,
+				AD05FFCB2962F8B30078FD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD05FFCF2962F8B30078FD48 /* PBXTargetDependency */,
+			);
+			name = "Sleep alarmUITests";
+			productName = "Sleep alarmUITests";
+			productReference = AD05FFCD2962F8B30078FD48 /* Sleep alarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD05FFAA2962F8B20078FD48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AD05FFB12962F8B20078FD48 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AD05FFC22962F8B30078FD48 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AD05FFB12962F8B20078FD48;
+					};
+					AD05FFCC2962F8B30078FD48 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AD05FFB12962F8B20078FD48;
+					};
+				};
+			};
+			buildConfigurationList = AD05FFAD2962F8B20078FD48 /* Build configuration list for PBXProject "Sleep alarm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD05FFA92962F8B20078FD48;
+			productRefGroup = AD05FFB32962F8B20078FD48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD05FFB12962F8B20078FD48 /* Sleep alarm */,
+				AD05FFC22962F8B30078FD48 /* Sleep alarmTests */,
+				AD05FFCC2962F8B30078FD48 /* Sleep alarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD05FFB02962F8B20078FD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD05FFBD2962F8B30078FD48 /* Preview Assets.xcassets in Resources */,
+				AD05FFBA2962F8B30078FD48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05FFC12962F8B30078FD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05FFCB2962F8B30078FD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD05FFAE2962F8B20078FD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD05FFB82962F8B20078FD48 /* ContentView.swift in Sources */,
+				AD05FFB62962F8B20078FD48 /* Sleep_alarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05FFBF2962F8B30078FD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD05FFC82962F8B30078FD48 /* Sleep_alarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05FFC92962F8B30078FD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD05FFD42962F8B30078FD48 /* Sleep_alarmUITestsLaunchTests.swift in Sources */,
+				AD05FFD22962F8B30078FD48 /* Sleep_alarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD05FFC52962F8B30078FD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD05FFB12962F8B20078FD48 /* Sleep alarm */;
+			targetProxy = AD05FFC42962F8B30078FD48 /* PBXContainerItemProxy */;
+		};
+		AD05FFCF2962F8B30078FD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD05FFB12962F8B20078FD48 /* Sleep alarm */;
+			targetProxy = AD05FFCE2962F8B30078FD48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD05FFD52962F8B30078FD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD05FFD62962F8B30078FD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD05FFD82962F8B30078FD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sleep alarm/Sleep_alarm.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sleep alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = WM7JP3J5JC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "martinmyhre.Sleep-alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD05FFD92962F8B30078FD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sleep alarm/Sleep_alarm.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sleep alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = WM7JP3J5JC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "martinmyhre.Sleep-alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD05FFDB2962F8B30078FD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WM7JP3J5JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "martinmyhre.Sleep-alarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sleep alarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sleep alarm";
+			};
+			name = Debug;
+		};
+		AD05FFDC2962F8B30078FD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WM7JP3J5JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "martinmyhre.Sleep-alarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sleep alarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sleep alarm";
+			};
+			name = Release;
+		};
+		AD05FFDE2962F8B30078FD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WM7JP3J5JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "martinmyhre.Sleep-alarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sleep alarm";
+			};
+			name = Debug;
+		};
+		AD05FFDF2962F8B30078FD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WM7JP3J5JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "martinmyhre.Sleep-alarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sleep alarm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD05FFAD2962F8B20078FD48 /* Build configuration list for PBXProject "Sleep alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05FFD52962F8B30078FD48 /* Debug */,
+				AD05FFD62962F8B30078FD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD05FFD72962F8B30078FD48 /* Build configuration list for PBXNativeTarget "Sleep alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05FFD82962F8B30078FD48 /* Debug */,
+				AD05FFD92962F8B30078FD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD05FFDA2962F8B30078FD48 /* Build configuration list for PBXNativeTarget "Sleep alarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05FFDB2962F8B30078FD48 /* Debug */,
+				AD05FFDC2962F8B30078FD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD05FFDD2962F8B30078FD48 /* Build configuration list for PBXNativeTarget "Sleep alarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD05FFDE2962F8B30078FD48 /* Debug */,
+				AD05FFDF2962F8B30078FD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD05FFAA2962F8B20078FD48 /* Project object */;
+}
